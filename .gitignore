@@ -1,0 +1,41 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+backendnext/node_modules
+backendnext/.pnp
+backendnext/.pnp.*
+backendnext/.yarn/*
+!backendnext/.yarn/patches
+!backendnext/.yarn/plugins
+!backendnext/.yarn/releases
+!backendnext/.yarn/versions
+
+# testing
+backendnext/coverage
+
+# next.js
+backendnext/.next/
+backendnext/out/
+
+# production
+backendnext/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+backendnext/npm-debug.log*
+backendnext/yarn-debug.log*
+backendnext/yarn-error.log*
+backendnext/.pnpm-debug.log*
+
+# env files
+backendnext/.env*
+
+# vercel
+backendnext/.vercel
+
+# typescript
+backendnext/*.tsbuildinfo
+backendnext/next-env.d.ts
